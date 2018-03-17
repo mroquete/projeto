@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 $request = Request::createFromGlobals();
-$response = Responce::create();
+$response = Response::create();
 
 $conteudo = '<h1>Vai Tricolor!</h1>';
 $response->setContent($conteudo);
